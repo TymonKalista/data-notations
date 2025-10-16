@@ -1,0 +1,20 @@
+<means_of_transport>
+    <bike>
+        <speed unit="mps">25</speed>
+        <price unit= "USD">300</price>
+        <practicality>useful</practicality>
+        <comfort>not great</comfort>
+    </bike>
+    <car>
+        <speed unit="mps">100</speed>
+        <price unit= "USD">1000</price>
+        <practicality>useful</practicality>
+        <comfort>great</comfort>
+    </car>
+    <legs>
+        <speed unit="mps">6</speed>
+        <price unit= "USD">0</price>
+        <practicality>useful</practicality>
+        <comfort>not great</comfort>
+    </legs>
+</means_of_transport>
