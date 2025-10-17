@@ -9,4 +9,13 @@
         </specs>
         <price currency="USD">799</price>
     </smartphone>
+    <smartphone brand="Motorola" model="idk" releaseYear="2022">
+        <specs>
+            <screenSize unit="inch">6</screenSize>
+            <batteryCapacity unit="mAh">4000</batteryCapacity>
+            <storage unit="GB">256</storage>
+            <camera unit="MP">40</camera>
+        </specs>
+        <price currency="USD">500</price>
+    </smartphone>
 </smartphones>
