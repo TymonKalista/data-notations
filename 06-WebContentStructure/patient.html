@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient Data Form</title>
 </head>
+
 <body>
     <h1>Patient Data Form</h1>
     <form>
         <label for="fname">First Name:</label><br>
         <input type="text" id="fname" name="fname"><br><br>
-        
+
         <label for="lname">Last Name:</label><br>
         <input type="text" id="lname" name="lname"><br><br>
-        
+
         <label for="age">Age:</label><br>
         <input type="number" id="age" name="age"><br><br>
-        
-        <label >Gender:</label><br>
+
+        <label>Gender:</label><br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
@@ -25,12 +27,34 @@
 
         <label for="height">Height (cm):</label><br>
         <input type="number" id="height" name="height"><br><br>
-        
+
         <label for="weight">Weight (kg):</label><br>
         <input type="number" id="weight" name="weight"><br><br>
-        
+
+        <label for="dateofbirth">Date of birth:</label><br>
+        <input type="date" id="dateofbirth" name="dateofbirth"><br><br>
+
+        <label for="placeofbirth">Place of birth:</label><br>
+        <input type="text" id="placeofbirth" name="placeofbirth"><br><br>
+
+        <h2>What's the issue?</h2>
+        <input type="checkbox" id="ilness1" name="ilness1" value="Cancer">
+        <label for="ilness1"> I have cancer</label><br>
+        <input type="checkbox" id="ilness2" name="ilness2" value="Alergies">
+        <label for="ilness2"> I have alergies</label><br>
+        <input type="checkbox" id="ilness3" name="ilness3" value="Mental issues">
+        <label for="ilness3"> I have mental issues</label>
+
+        <input type="checkbox" id="ilness4" name="ilness4" value="Sth else">
+        <label for="ilness4"> I have sth else</label>
+
+
+        <label for="notes"> Notes:</label><br>
+        <textarea id="notes" name="notes" rows="5" cols="40"></textarea><br><br>
+
         <button type="button">Ok</button>
         <button type="button">Cancel</button>
     </form>
 </body>
+
 </html>
