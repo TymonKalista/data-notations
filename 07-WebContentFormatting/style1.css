@@ -1,0 +1,26 @@
+table{
+    padding: 12px;
+    border-collapse: collapse;
+    border-width: 5px;
+    border-style: solid;
+    margin: 25px;
+
+
+}
+
+th{
+    background-color: green;
+    color: white;
+}
+
+th:nth-child(1) {
+    width:25%;
+}
+
+th:nth-child(4) {
+    width:40%;
+}
+
+tr:hover {
+        background-color: greenyellow;
+}
